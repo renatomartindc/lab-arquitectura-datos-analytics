@@ -1,7 +1,7 @@
 
 ## Local Development Setup
 * Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-* Install [Nodejs v16+]([https://www.postman.com](https://nodejs.org/id/blog/release/v16.16.0/) 
+* Install [Nodejs v16+](https://nodejs.org/id/blog/release/v16.16.0/) 
 
 ## Local Installation
 
