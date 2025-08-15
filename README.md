@@ -7,7 +7,7 @@
 
 * **Infraestructure Installation**: 
 
-  * Git Clone repository in folder local Example: D:\lab\analytics\ (windows) or home/lab/analytics/ (Linux)
+  * Git Clone repository in folder local. Forw example: D:\lab\analytics\ (windows) or home/lab/analytics/ (Linux)
   * Into folder local, Go to root project \
   * Execute the instruction: > docker-compose up -d
   * Verify docker containers up
@@ -22,18 +22,17 @@
 
 * **Development Installation**: 
 
-* Go to each folder spring-boot-microservices-course\ (api-gateway, catalog-service, order-service, notification-service, bookstore-webapp) in this order.
-* In each folder (Example: spring-boot-microservices-course\api-gateway) Execute the instruction: > mvn clean install
-* Verify Build Success ![Build Success](docs/build.png)
-* Then, execute the instruction: > mvn spring-boot:run
-* Verify Run Sucess ![Run Success](docs/run.png)
-
-* **Test BookStore-WebApp**:
-* Go to page http://localhost:8080 ![BookStore Page](docs/webapp.png)
-
-  
-
-
+  * Go to folder /src/consumer
+  * Into folder execute: > npm install
+  * Go to folder /src/producer
+  * Into folder execute: > npm install
+  * Go to folder /src/producer
+  * Into folder execute: > npm start
+  * Go to folder /src/consumer
+  * Into folder execute: > npm start
+  * Verify Start Succes Producer ![Start Producer Success](images/sp.png)
+  * Verify Start Succes Consumer ![Start Consumer Success](images/sc.png)
+ 
 
 
 
