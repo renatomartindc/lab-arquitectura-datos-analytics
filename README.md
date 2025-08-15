@@ -7,18 +7,18 @@
 
 * **Infraestructure Installation**: 
 
-* Git Clone repository in folder local Example: D:\lab\analytics\ (windows) or home/lab/analytics/ (Linux)
-* Into folder local, Go to root project \
-* Execute the instruction: > docker-compose up -d
-* Verify docker containers up
-* Verificar RabbitMQ Management
-   * curl http://localhost:15672
+  * Git Clone repository in folder local Example: D:\lab\analytics\ (windows) or home/lab/analytics/ (Linux)
+  * Into folder local, Go to root project \
+  * Execute the instruction: > docker-compose up -d
+  * Verify docker containers up
+  * Verificar RabbitMQ Management
+     * curl http://localhost:15672
   # Usuario: admin, Contraseña: admin123
-* Verificar MongoDB
-  * curl http://localhost:8081
+  * Verificar MongoDB
+    * curl http://localhost:8081
   # Usuario: admin, Contraseña: admin123
-* Verificar conexión MongoDB directa
-   * Ejecutar: >docker exec -it ecommerce-mongodb mongosh -u admin -p admin123
+  * Verificar conexión MongoDB directa
+     * Ejecutar: >docker exec -it ecommerce-mongodb mongosh -u admin -p admin123
 
 * **Development Installation**: 
 
