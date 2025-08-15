@@ -13,10 +13,10 @@
   * Verify docker containers up
   * Verificar RabbitMQ Management
      * curl http://localhost:15672
-  # Usuario: admin, Contraseña: admin123
+     <!--    Usuario: admin, Contraseña: admin123 -->
   * Verificar MongoDB
     * curl http://localhost:8081
-  # Usuario: admin, Contraseña: admin123
+     <!--   Usuario: admin, Contraseña: admin123 -->
   * Verificar conexión MongoDB directa
      * Ejecutar: >docker exec -it ecommerce-mongodb mongosh -u admin -p admin123
 
